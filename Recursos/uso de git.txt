@@ -1,0 +1,199 @@
+Uso de Git
+Git Bash Here con click derecho repositorios/repositorios6i/bancabt6i
+actualizar 
+git fetch origin
+git branch -M nombre_rama
+git branch main
+git checkout main
+git checkout main
+git fetch origin
+para actualizar rama
+git pull origin release/test
+Luego pegar los objetos desde mi local hacia repositorios/repositorios6i/bancabt6i/pr/formas o menus etc
+git status
+git add PR/MENU/PRESPA.mmb o git add .
+git status
+git commit -m "descripcion"
+para validar
+git pull origin release/test
+se sube a Azure
+git push origin nombre_rama
+se va a azure para ver en Commit
+y se hace el pull-request correspondiente conforme al Commit
+
+Cuando la carpeta no tiene nada en repositorio
+Se va Azure en Repos- Clone y se copia SSH
+git clone Command Line SSH
+
+
+git 
+
+
+git add -u ':!listobjects.txt' ':!/pr/formas/pr0031.fmb' ':!/pr/reportes/prr0181.rdf' ':!/pr/reportes/prr0187.rdf'
+
+
+// delete branch locally
+git branch -d localBranchName
+git branch -d Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-06092023
+git brachd -d Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+git brachd -d Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+git push origin --delete Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-06092023
+git push origin --delete Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+git push origin --delete Colocaciones/BUG-113793-abono-de-creditos-actualizar-solo-pr0111-release-12c-07092023
+
+
+
+git add -- . ':!<path>'
+# if the file in the right place isn't already committed:
+git add <path to desired file>
+
+# remove the "both deleted" file from the index:
+git rm --cached ../public/images/originals/dog.ai
+# commit the merge:
+git commit
+
+
+You need to resolve your current index first 
+git reset --merge
+
+
+If you've already committed your merge locally (but haven't pushed to remote yet), and want to revert it as well:
+
+local
+git reset --hard HEAD~1 
+
+git remote
+antes dar git log
+luego git revert (el commit)
+
+git update-index --assume-unchanged listobjects.txt pr/formas/pr0031.fmb pr/reportes/prr0187.rdf pr/reportes/prr0181.rdf
+
+
+tomado desde la rama que la cree
+ git clone --branch Colocaciones/Celula_creditos_test https://AgilidadBantrab@dev.azure.com/AgilidadBantrab/Repos_BancaBT/_git/bancabt12c
+
+
+Para proyecto Net 7 en mi casa
+crear repositorio
+mkdir repositorio2
+acceder con git bash
+git init
+git clone https://github.com/ciso2020/InventarioNet7.git
+git fetch
+---git branch https://github.com/ciso2020/InventarioNet7.git master
+---git pull https://github.com/ciso2020/InventarioNet7.git
+copiar aqui todos los cambios
+git status
+git add .
+git status
+git commit -m "Backup 13-02-25"
+
+ git remote add main https://github.com/ciso2020/InventarioNet7.git
+ git push --set-upstream main main
+
+ git pull https://github.com/ciso2020/InventarioNet7.git main
+
+----git pull https://github.com/ciso2020/SistemasInventarioV8.git
+git push --set-upstream https://github.com/ciso2020/InventarioNet7.git 
+git pull https://github.com/ciso2020/InventarioNet7.git master
+
+
+
+13022025
+…or create a new repository on the command line
+echo "# BackNet7" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ciso2020/BackNet7.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/ciso2020/BackNet7.git
+git branch -M main
+git push -u origin main
+
+14022025
+git init
+
+…or create a new repository on the command line
+echo "# SistemaInventarioNet7-3" >> README.md
+git init
+dotnet new gitignore
+git commit -m "Confiruracion Proyecto TODO"
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ciso2020/SistemaInventarioNet7-3.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/ciso2020/SistemaInventarioNet7-3.git
+git branch -M main
+git push -u origin main
+
+Agregar Archivo Gitignore
+Si tuviste problemas al subir tus cambios usando Git 
+en esta lectura te dejo la solución:
+
+En la consola ejecuta el comando para crear el archivo gitignore. 
+Al parecer github esta dando problemas al encontrar 
+repositorios sin el archivo gitignore, para esto vamos a hacer lo siguiente:
+
+En el Explorer en la carpeta de tu proyecto borra 
+todo lo relacionado a git. Es solo un archivo.
+
+Luego ejecuta nuevamente el comando git init
+
+Como tercer paso vas a ejecutar el comando que creará el archivo gitignore:
+
+dotnet new gitignore
+
+Luego sigue con el resto de pasos es decir 
+git add., commit, remote, push
+
+git add .
+git commit -m "Confiruracion Proyecto TODO"
+gex
+
+15-2-2025
+…or create a new repository on the command line
+echo "# SI-V7-3" >> README.md
+git init
+git add README.md
+git commit -m "BackupInicial"
+git branch -M main
+git remote add origin https://github.com/ciso2020/SI-V7-3.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/ciso2020/SI-V7-3.git
+git branch -M main
+git push -u origin main
+
+cada nuevo cambio
+Open Git Bash here...sobre /repos/SistemaInventarioNet7-3 principal
+git init
+git add .
+git commit -m "Patron de Repositorio"
+git push -u origin main
+
+
+git remote rm origin
+git remote add origin git@github.com:ciso2020/https://github.com/ciso2020/SI-V7-3.git
+
+----****
+19/02/2025
+git init
+git add .
+git commit -m "CRUD de Bodegas + extras"
+git push -u origin main
+
+19/02/2025
+git init
+git add .
+git commit -m "CRUD de Categorias"
+git push -u origin main

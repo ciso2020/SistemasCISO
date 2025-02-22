@@ -1,0 +1,11 @@
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\bin\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.deps.json
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\bin\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.dll
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\bin\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.pdb
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.dll
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\refint\SistemaInventarioNet7-3.Utilidades.dll
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\SistemaInventarioNet7-3.Utilidades.pdb
+C:\Users\carlo\source\repos\SistemaInventarioNet7-3\SistemaInventarioNet7-3.Utilidades\obj\Debug\net7.0\ref\SistemaInventarioNet7-3.Utilidades.dll

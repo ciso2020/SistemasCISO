@@ -1,0 +1,49 @@
+1. Modelo Categoria
+   sobre modelos crear nueva clase Categoria.cs
+2.luego AccesoDatos- Configuracion
+  CategoriaConfiguracion similar a BodegaConfiguracion
+3.Luego DBContext 
+  AccesoDatos
+  Data
+  ApplicationDbContext.cs
+public DbSet<Bodega> Bodegas { get; set; } agregar otro para categoria
+
+4.Luego ejecutar la Migracion para crear Categorias.
+manejador de paquetes
+pm> add-migration AgregarCategoriaMigracion
+Para el error 
+Unable to create an object of type 'ApplicationDbContext'. 
+For the different patterns supported at design time, 
+see https://go.microsoft.com/fwlink/?linkid=851728
+****colocar proyecto en https para ejecutar y luego seleccinoar 
+AccesoDatos
+add-migration AddBodegaMigracion
+
+5.update-database
+
+6.Luego a interfaz AccesoDatos->Repositorio -> IRepositorio
+  copia IBodegaRepositorio.cs para ICategoriaRepositorio.cs
+
+7. luego implementacion repositorio
+copia de BodegaRepositirio a CategoriaRepositorio
+
+8. en interfaz agregar nuevo modelo, Repositorio->IRepositorio->
+IUnidadTrabajo.cs   ---falta arreglar IRepositorio
+
+9. implementar Repositorio->UnidadTrabajo.cs
+
+10. luego el controlador y las vistas de Categoria
+Areas->Admin->Controllers-> copia de BodegaController.cs ->CategoriaController.cs
+
+11. Vistas
+Areas->Admin->Views  se saca copia a tdodo Bodega que
+contiene index y upsert
+
+12. luego en wwwroot->js copiar bodega.js a categoria.js
+
+13.View->Shared  _Layout.cshtml   para agregar el dropdown de Categoria
+
+
+
+ // se borra para los warnings de Null <Nullable>enable</Nullable>
+
