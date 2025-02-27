@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SistemaInventarioNet7-3.props" />
+</Project>

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaInventarioNet7_3.AccesoDatos.Data;
 using SistemaInventarioNet7_3.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventarioNet7_3.Modelos.Especificaciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -61,30 +62,30 @@ namespace SistemaInventarioNet7_3.AccesoDatos.Repositorio
 
         }
 
-        //public PagedList<T> ObtenerTodosPaginado(Parametros parametros, Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTracking = true)
-        //{
-        //    IQueryable<T> query = dbSet;
-        //    if (filtro != null)
-        //    {
-        //        query = query.Where(filtro);   //  select /* from where ....
-        //    }
-        //    if (incluirPropiedades != null)
-        //    {
-        //        foreach (var incluirProp in incluirPropiedades.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-        //        {
-        //            query = query.Include(incluirProp);    //  ejemplo "Categoria,Marca"
-        //        }
-        //    }
-        //    if (orderBy != null)
-        //    {
-        //        query = orderBy(query);
-        //    }
-        //    if (!isTracking)
-        //    {
-        //        query = query.AsNoTracking();
-        //    }
-        //    return PagedList<T>.ToPagedList(query, parametros.PageNumber, parametros.PageSize);
-        //}
+        public PagedList<T> ObtenerTodosPaginado(Parametros parametros, Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTracking = true)
+        {
+            IQueryable<T> query = dbSet;
+            if (filtro != null)
+            {
+                query = query.Where(filtro);   //  select /* from where ....
+            }
+            if (incluirPropiedades != null)
+            {
+                foreach (var incluirProp in incluirPropiedades.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(incluirProp);    //  ejemplo "Categoria,Marca"
+                }
+            }
+            if (orderBy != null)
+            {
+                query = orderBy(query);
+            }
+            if (!isTracking)
+            {
+                query = query.AsNoTracking();
+            }
+            return PagedList<T>.ToPagedList(query, parametros.PageNumber, parametros.PageSize);
+        }
 
         public async Task<T> ObtenerPrimero(Expression<Func<T, bool>> filtro = null,
             string incluirPropiedades = null, bool isTracking = true)

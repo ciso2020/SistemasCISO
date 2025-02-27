@@ -3,8 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3\\areas\\inventario\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|solutionrelative:areas\\inventario\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7550A137-7226-423E-A7AF-770F7B0E2F32}|..\\SistemaInventarioNet7-3.AccesoDatos\\SistemaInventarioNet7-3.AccesoDatos.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3.accesodatos\\inicializador\\dbinicializador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74381743-38B5-4C92-A3F9-7B2E381D03AD}|..\\SistemaInventarioNet7-3.Utilidades\\SistemaInventarioNet7-3.Utilidades.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3.utilidades\\ds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +16,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,15 +44,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarroController.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Areas\\Inventario\\Controllers\\CarroController.cs",
-              "RelativeDocumentMoniker": "Areas\\Inventario\\Controllers\\CarroController.cs",
-              "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Areas\\Inventario\\Controllers\\CarroController.cs",
-              "RelativeToolTip": "Areas\\Inventario\\Controllers\\CarroController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "DS.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.Utilidades\\DS.cs",
+              "RelativeDocumentMoniker": "..\\SistemaInventarioNet7-3.Utilidades\\DS.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.Utilidades\\DS.cs",
+              "RelativeToolTip": "..\\SistemaInventarioNet7-3.Utilidades\\DS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T06:36:10.393Z",
+              "WhenOpened": "2025-02-27T05:32:10.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbInicializador.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.AccesoDatos\\Inicializador\\DbInicializador.cs",
+              "RelativeDocumentMoniker": "..\\SistemaInventarioNet7-3.AccesoDatos\\Inicializador\\DbInicializador.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.AccesoDatos\\Inicializador\\DbInicializador.cs",
+              "RelativeToolTip": "..\\SistemaInventarioNet7-3.AccesoDatos\\Inicializador\\DbInicializador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T05:30:25.822Z",
               "EditorCaption": ""
             }
           ]

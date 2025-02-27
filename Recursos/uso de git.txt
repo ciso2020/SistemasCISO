@@ -197,3 +197,31 @@ git init
 git add .
 git commit -m "CRUD de Categorias"
 git push -u origin main
+
+
+
+error: remote origin already exists
+git remote rm origin
+git remote add origin https://github.com/ciso2020/SI-V7.3.git
+git push -u origin main
+
+
+22/02/2025  Todos
+echo "# SistemasCISO" >> README.md
+git init
+---git add README.md
+---Hacer uno por uno los directorios en /repos/*
+
+git add --all SistemaInventarioNet7-3/.
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ciso2020/SistemasCISO.git
+git push -u origin main
+
+
+
+
+fatal: Pathspec 'SistemaInventarioNet7-3/SistemaInventarioNet7-3/Areas' is in submodule 'SistemaInventarioNet7-3/SistemaInventarioNet7-3'
+git submodule foreach --recursive deinit -f --all -- SistemaInventarioNet7-3/SistemaInventarioNet7-3/
+git add --all -f

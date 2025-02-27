@@ -32,22 +32,22 @@ namespace SistemaInventarioNet7_3.Areas.Inventario.Controllers
             var claimIdentity = (ClaimsIdentity)User.Identity;
             var claim = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
-            carroCompraVM = new CarroCompraVM();
-            carroCompraVM.Orden = new Modelos.Orden();
-            carroCompraVM.CarroCompraLista = await _unidadTrabajo.CarroCompra.ObtenerTodos(
-                                                u => u.UsuarioAplicacionId == claim.Value,
-                                                incluirPropiedades:"Producto");
+        carroCompraVM = new CarroCompraVM();
+        carroCompraVM.Orden = new Modelos.Orden();
+        carroCompraVM.CarroCompraLista = await _unidadTrabajo.CarroCompra.ObtenerTodos(
+                                            u => u.UsuarioAplicacionId == claim.Value,
+                                            incluirPropiedades:"Producto");
 
-            carroCompraVM.Orden.TotalOrden = 0;
-            carroCompraVM.Orden.UsuarioAplicacionId = claim.Value;
+        carroCompraVM.Orden.TotalOrden = 0;
+        carroCompraVM.Orden.UsuarioAplicacionId = claim.Value;
 
-            foreach (var lista in carroCompraVM.CarroCompraLista)
-            {
-                lista.Precio = lista.Producto.Precio;  // Siempre mostrar el Precio actual del Producto
-                carroCompraVM.Orden.TotalOrden += (lista.Precio * lista.Cantidad);
-            }
+        foreach (var lista in carroCompraVM.CarroCompraLista)
+        {
+            lista.Precio = lista.Producto.Precio;  // Siempre mostrar el Precio actual del Producto
+            carroCompraVM.Orden.TotalOrden += (lista.Precio * lista.Cantidad);
+        }
 
-            return View(carroCompraVM);
+          return View(carroCompraVM);
         }
 
         public async Task<IActionResult> mas(int carroId)
@@ -92,7 +92,9 @@ namespace SistemaInventarioNet7_3.Areas.Inventario.Controllers
             HttpContext.Session.SetInt32(DS.ssCarroCompras, numeroProductos - 1);
             return RedirectToAction("Index");
         }
+        
 
+        
        public async Task<IActionResult> Proceder()
         {
             var claimIdentidad = (ClaimsIdentity)User.Identity;
@@ -137,6 +139,7 @@ namespace SistemaInventarioNet7_3.Areas.Inventario.Controllers
             }
             return View(carroCompraVM);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Proceder(CarroCompraVM carroCompraVM)
@@ -263,6 +266,7 @@ namespace SistemaInventarioNet7_3.Areas.Inventario.Controllers
             return View(id);
         }
 
-
+            
     }
+
 }
