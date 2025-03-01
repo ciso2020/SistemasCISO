@@ -178,7 +178,7 @@ namespace SistemaInventarioNet7_3.Areas.Identity.Pages.Account
                     }
 
                  
-                    if(user.Role ==null)  // El Valor que recibe desde el Page
+                    if(user.Role ==null)  // El Valor que recibe desde el Page  ciso
                     {
                         await _userManager.AddToRoleAsync(user, DS.Role_Cliente);
                     }

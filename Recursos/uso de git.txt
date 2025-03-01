@@ -212,11 +212,13 @@ git init
 ---git add README.md
 ---Hacer uno por uno los directorios en /repos/*
 
-git add --all SistemaInventarioNet7-3/.
+git add --all HolaMundo/
+git add --all Recursos/
+git add --all SistemaInventarioNet7-3/
 
-git commit -m "first commit"
+git commit -m "2do. Commit"
 git branch -M main
-git remote add origin https://github.com/ciso2020/SistemasCISO.git
+----git remote add origin https://github.com/ciso2020/SistemasCISO.git
 git push -u origin main
 
 

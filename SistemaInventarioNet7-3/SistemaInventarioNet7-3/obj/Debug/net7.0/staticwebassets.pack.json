@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
+    },
+    {
       "Id": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

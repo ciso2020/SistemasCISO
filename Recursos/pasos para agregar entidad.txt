@@ -47,3 +47,4 @@ contiene index y upsert
 
  // se borra para los warnings de Null <Nullable>enable</Nullable>
 
+https://localhost:7228/Identity/Account/Register

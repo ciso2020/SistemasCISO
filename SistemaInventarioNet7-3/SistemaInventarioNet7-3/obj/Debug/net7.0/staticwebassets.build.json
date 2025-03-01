@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+vJGB0Wfbx1jXLfkY7rs6i2cP30mvkfeLprmwPfNd24=",
+  "Hash": "N37Tw1Ca8q1g4iCeF4FugaVlaL1xtymE3E7ZSZ3HsMU=",
   "Source": "SistemaInventarioNet7-3",
   "BasePath": "_content/SistemaInventarioNet7-3",
   "Mode": "Default",
@@ -1573,6 +1573,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\js\\usuario.js",
+      "SourceId": "SistemaInventarioNet7-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioNet7-3",
+      "RelativePath": "js/usuario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\usuario.js"
     },
     {
       "Identity": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
