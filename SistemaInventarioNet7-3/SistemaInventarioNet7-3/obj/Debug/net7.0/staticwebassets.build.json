@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zhBnm4+mtfx6W4wFfTWc86B97KoDOZLezDAS+p/vPjg=",
+  "Hash": "UEbW+Dun8BBsH8yj/7kHtmM6X+F1h7L+WyGWgKcQPFE=",
   "Source": "SistemaInventarioNet7-3",
   "BasePath": "_content/SistemaInventarioNet7-3",
   "Mode": "Default",
@@ -1290,6 +1290,25 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\icono.png"
     },
     {
+      "Identity": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\imagenes\\producto\\06dd3dde-0e45-45af-ad5e-041d635f013e.JPG",
+      "SourceId": "SistemaInventarioNet7-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioNet7-3",
+      "RelativePath": "imagenes/producto/06dd3dde-0e45-45af-ad5e-041d635f013e.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\06dd3dde-0e45-45af-ad5e-041d635f013e.JPG"
+    },
+    {
       "Identity": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\imagenes\\producto\\0a1f22f1-8977-4d86-9fe1-10894d2024f5.JPG",
       "SourceId": "SistemaInventarioNet7-3",
       "SourceType": "Discovered",
@@ -1307,6 +1326,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\producto\\0a1f22f1-8977-4d86-9fe1-10894d2024f5.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\imagenes\\producto\\0d0cb8f4-ce4d-434c-96dc-cb334bf6a62b.JPG",
+      "SourceId": "SistemaInventarioNet7-3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioNet7-3",
+      "RelativePath": "imagenes/producto/0d0cb8f4-ce4d-434c-96dc-cb334bf6a62b.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\0d0cb8f4-ce4d-434c-96dc-cb334bf6a62b.JPG"
     },
     {
       "Identity": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\imagenes\\producto\\25697b72-9723-4cce-8cbb-418a49bc1593.JPG",

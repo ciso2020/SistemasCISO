@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70EE0124-EB7E-4A8D-87C5-170094F0A2AC}|..\\SistemaInventarioNet7-3.Modelos\\SistemaInventarioNet7-3.Modelos.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3.modelos\\kardexinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,10 +33,6 @@
       "RelativeMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|c:\\users\\carlo\\source\\repos\\sistemainventarionet7-3\\sistemainventarionet7-3\\areas\\admin\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64AEBCD2-5487-4220-B974-FD2059619015}|SistemaInventarioNet7-3.csproj|solutionrelative:areas\\admin\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -52,7 +52,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Areas\\Admin\\Views\\Marca\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Marca\\Index.cshtml",
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "KardexInventario.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.Modelos\\KardexInventario.cs",
               "RelativeDocumentMoniker": "..\\SistemaInventarioNet7-3.Modelos\\KardexInventario.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -110,11 +110,12 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAALwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T04:45:40.372Z"
+              "WhenOpened": "2025-03-03T04:45:40.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -122,7 +123,21 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-03T04:30:19.914Z"
+              "WhenOpened": "2025-03-03T04:30:19.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:29:14.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,7 +149,8 @@
               "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoriaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T05:54:45.884Z"
+              "WhenOpened": "2025-03-01T05:54:45.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -146,57 +162,47 @@
               "RelativeToolTip": "Areas\\Admin\\Controllers\\BodegaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T05:53:43.127Z"
+              "WhenOpened": "2025-03-01T05:53:43.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MarcaController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Areas\\Admin\\Controllers\\MarcaController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MarcaController.cs",
               "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Areas\\Admin\\Controllers\\MarcaController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\MarcaController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAABBwAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T05:55:03.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "inventario.js",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\js\\inventario.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\inventario.js",
               "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\js\\inventario.js",
               "RelativeToolTip": "wwwroot\\js\\inventario.js",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAABBwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-03T20:22:46.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.Utilidades\\EmailSender.cs",
               "RelativeDocumentMoniker": "..\\SistemaInventarioNet7-3.Utilidades\\EmailSender.cs",
               "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.Utilidades\\EmailSender.cs",
               "RelativeToolTip": "..\\SistemaInventarioNet7-3.Utilidades\\EmailSender.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAA2AAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAABBwBUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T22:25:03.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T05:29:14.76Z"
+              "WhenOpened": "2025-02-28T22:25:03.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -206,9 +212,10 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\usuario.js",
               "ToolTip": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3\\wwwroot\\js\\usuario.js",
               "RelativeToolTip": "wwwroot\\js\\usuario.js",
-              "ViewState": "AQIAADcAAAAAAAAAAABRwEEAAAAAAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAIBZwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-28T20:03:32.177Z"
+              "WhenOpened": "2025-02-28T20:03:32.177Z",
+              "EditorCaption": ""
             }
           ]
         }

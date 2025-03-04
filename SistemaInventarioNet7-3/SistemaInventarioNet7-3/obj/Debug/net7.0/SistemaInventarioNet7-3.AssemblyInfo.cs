@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaInventarioNet7-3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53f58bb90408750191b193f571dccf379ded36b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33de615abff474a6c88ca534a3651116e6714bf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaInventarioNet7-3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaInventarioNet7-3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
