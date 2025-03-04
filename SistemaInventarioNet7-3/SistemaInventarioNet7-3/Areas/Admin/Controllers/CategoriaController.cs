@@ -7,6 +7,7 @@ using SistemaInventarioNet7_3.Utilidades;
 namespace SistemaInventarioNet7_3.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]
     public class CategoriaController : Controller
     {
 

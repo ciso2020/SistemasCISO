@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VsQAY4aoUxc=",
+  "dgSpecHash": "6/L6+I+KIpE=",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\SistemaInventarioNet7-3\\SistemaInventarioNet7-3.AccesoDatos\\SistemaInventarioNet7-3.AccesoDatos.csproj",
   "expectedPackageFiles": [
@@ -85,7 +85,7 @@
     "C:\\Users\\carlo\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\sendgrid\\9.28.1\\sendgrid.9.28.1.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\sendgrid\\9.29.3\\sendgrid.9.29.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

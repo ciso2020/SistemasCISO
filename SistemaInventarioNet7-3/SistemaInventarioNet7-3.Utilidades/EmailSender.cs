@@ -21,8 +21,9 @@ namespace SistemaInventarioNet7_3.Utilidades
 
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
+            //emial sender ciso
             var client = new SendGridClient(SendGridSecret);
-            var from = new EmailAddress("support@baezstone.com");
+            var from = new EmailAddress("cisoivan2020@gmail.com");
             var to = new EmailAddress(email);
             var msg = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
 
