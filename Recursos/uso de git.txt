@@ -218,6 +218,9 @@ git add --all SistemaInventarioNet7-3/
 
 git commit -m "2do. Commit"
 git commit -m "Administracion de Usuarios"
+git commit -m "4to. Commit"
+git commit -m "Generar Reportes con Rotativa"
+
 
 git branch -M main
 ----git remote add origin https://github.com/ciso2020/SistemasCISO.git
